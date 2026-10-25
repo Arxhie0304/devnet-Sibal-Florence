@@ -1,7 +1,7 @@
 import random
 import requests
 
-names = ["Pikachu", "Bulbasaur", "Charmander", "Squirtle", "Charizard"]
+names = ["pikachu", "bulbasaur", "charmander", "squirtle", "charizard"]
 
 
 def play():
