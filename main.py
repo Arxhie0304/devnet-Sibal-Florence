@@ -20,6 +20,7 @@ def play():
     print("Guess the Pokémon! Choices:", ", ".join(names))
     print("Height:", data["height"] / 10, "meters")
     print("Weight:", data["weight"] / 10, "kg")
+    print("Abilities:", ", ".join(a["ability"]["name"] for a in data["abilities"]))
 
     for attempt in range(3):
         guess = input(f"Guess {attempt + 1}/3: ").strip().lower()
